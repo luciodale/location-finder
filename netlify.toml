@@ -1,0 +1,16 @@
+[functions]
+  directory = "api"
+
+[build]
+  command = "bun run build"
+
+[dev]
+  command = "bun run start"
+  port = 5174
+  live = true
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
