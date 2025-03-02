@@ -15,7 +15,7 @@ export function App() {
 				</p>
 			</div>
 
-			<div className="flex flex-col lg:flex-row gap-4 justify-center items-stretch">
+			<div className="flex flex-col-reverse lg:flex-row gap-4 justify-center items-stretch">
 				<div className="w-full">
 					<BrowserInfoDisplay />
 				</div>
