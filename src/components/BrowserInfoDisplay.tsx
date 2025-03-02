@@ -239,7 +239,7 @@ export function BrowserInfoDisplay() {
 						<TabsTrigger value="performance">Performance</TabsTrigger>
 						<TabsTrigger value="apis">APIs</TabsTrigger>
 					</TabsList>
-					<div className="mx-auto md:w-xl overflow-y-auto min-h-[600px] max-h-[600px] mt-30 md:mt-0">
+					<div className="mx-auto md:w-xl overflow-y-auto lg:min-h-[600px] max-h-[600px] mt-30 md:mt-0">
 						<TabsContent value="fingerprint">
 							<div className="space-y-4">
 								<div>
